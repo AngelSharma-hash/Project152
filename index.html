@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <script src="base.js"></script>
+    <script src="car.js"></script>
+    <script src="move_car.js"></script>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+</head>
+<body>
+    <a-scene background="color:#ADA313">
+        <a-entity>
+            <a-camera position="0 0 5"></a-camera>
+            <a-entity position="0 0 0" rotation="0 0 0" base>
+                <a-cylinder color="white"></a-cylinder>
+            </a-entity>
+        <a-entity counter>
+            <a-entity car></a-entity>
+        </a-entity>
+        </a-entity>
+</a-scene>
+</body>
